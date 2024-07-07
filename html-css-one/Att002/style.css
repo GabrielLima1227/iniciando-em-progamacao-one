@@ -38,16 +38,24 @@ p.apresentacao__conteudo__texto{
     font-family: "Montserrat", sans-serif;
 }
 div.apresentacao__links{
+    gap: 32px;
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
 }
+h2.apresentacao__links__subtitulo{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Krona One", sans-serif;
+}
 a.apresentacao__links__link{
-    width: 280px;
-    color: #000000;
+    width: 378PX;
+    color: #F6F6F6;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 21.5px 0px;
     text-decoration: none;
-    background-color: #22d4fd;
+    border: 2px solid #22d4fd;
     font: normal 600 24px "Montserrat", sans-serif;
 }
